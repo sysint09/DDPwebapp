@@ -32,7 +32,13 @@ shinyUI(fluidPage(
                    max = 4,
                    value = 1),
        p("In the second plot you can see all the data and the prediction function that
-          doesn't take into cosideration Diet covariable. ")
+          doesn't take into cosideration Diet covariable. "),
+       br(),
+       h4("Source code"),
+       h5("Source code is available in my github repository:",
+        a("https://github.com/sysint09/DDPwebapp",href="
+        https://github.com/sysint09/DDPwebapp"))
+
     ),
 
     # Show a plot of the generated model
